@@ -14,12 +14,12 @@ impl zed::Extension for NeLuaExtension {
         _worktree: &zed::Worktree,
     ) -> Result<zed::Command, String> {
         Ok(zed::Command {
-            command: "/usr/bin/nelua".to_string(),
+            command: "/path/to/nelua".to_string(), // change
             args: vec![
                 "-L".to_string(),
-                "/home/kome/Documents/code-projects/random/nelua-lsp/".to_string(),
+                "/path/to/nelua-lsp/".to_string(), // change
                 "--script".to_string(),
-                "/home/kome/Documents/code-projects/random/nelua-lsp/main.lua".to_string(),
+                "/path/to/nelua-lsp/main.lua".to_string(), // change
             ],
             env: Default::default(),
         })
