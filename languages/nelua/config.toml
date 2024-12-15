@@ -1,0 +1,4 @@
+name = "Nelua"
+grammar = "nelua"
+path_suffixes = ["nelua"]
+line_comments = ["-- "]

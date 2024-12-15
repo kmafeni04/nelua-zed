@@ -1,0 +1,15 @@
+id = "nelua"
+name = "Nelua"
+version = "0.0.1"
+schema_version = 1
+authors = ["Leonard Mafeni <komemafeni944@gmail.com>"]
+description = "Nelua language extension for Zed"
+repository = "https://github.com/kmafeni04/nelua-zed"
+
+[grammars.nelua]
+repository = "https://github.com/kmafeni04/tree-sitter-nelua"
+commit = "b29bdf171913e69eddc06b00a76088cc0b854280"
+
+[language_servers.nelua-lsp]
+name = "nelua-lsp"
+language = "Nelua"
